@@ -173,8 +173,12 @@ var App = {
 				effect:"zoom",
 
 				images:[
-					"http://placehold.it/1920x1080/ffadaa",
-					"http://placehold.it/1920x1080/ceffaa",
+        "img/carousel/slide-1.jpg",
+        "img/carousel/slide-2.jpg",
+        "img/carousel/slide-3.jpg",
+        "img/carousel/slide-4.jpg",
+        "img/carousel/slide-5.jpg",
+        "img/carousel/slide-6.jpg",
 				]
 				
 			});
@@ -184,6 +188,7 @@ var App = {
 	slideText: function(index) {
 		
 		$('.slide-text').stop(true,true).animate({'top': (index-1)*-21}, 300, 'easeOutExpo');
+		$('.main-slide-text').stop(true,true).animate({'top': (index-1)*-91}, 300, 'easeOutExpo');
 		
 	},
 	
