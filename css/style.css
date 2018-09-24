@@ -1,5 +1,5 @@
 /*==========================================================================================
-	
+
 Main theme styles
 This file contains all styles for GIOSS theme
 
@@ -84,22 +84,22 @@ section.page {margin-top:60px;padding:40px 0;}
 }
 
 @keyframes rotateplane {
-  0% { 
+  0% {
     transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
-  } 25% { 
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
+  } 25% {
     transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
-  } 50% { 
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
+  } 50% {
     transform: perspective(120px) rotateX(-180deg) rotateY(-180deg);
     -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-180deg);
-  } 75% { 
+  } 75% {
     transform: perspective(120px) rotateX(0deg) rotateY(-180deg);
     -webkit-transform: perspective(120px) rotateX(0deg) rotateY(-180deg);
-  } 100% { 
+  } 100% {
     transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
-  } 
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
+  }
 }
 
 
@@ -457,9 +457,12 @@ section.page {margin-top:60px;padding:40px 0;}
 #footer .social li a:hover {background-color:#fff;color:#000;}
 
 
-
-
-
+/*----------------------------------------------------*/
+/*	Custom css
+/*----------------------------------------------------*/
+a.custom-logo {width:100%;position:relative;}
+a.custom-logo > div {background-image: url('../img/index-gold-logo.svg');position:relative;z-index:10;width:125px;height:33px;background-size:contain;top:37px;background-position:center;background-repeat:no-repeat;}
+#header.sticky a.custom-logo > div {background-image: url('../img/index-white-logo.svg');position:relative;z-index:10;width:125px;height:33px;background-size:contain;top:37px;background-position:center;background-repeat:no-repeat;}
 
 
 
