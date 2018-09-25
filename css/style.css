@@ -466,3 +466,22 @@ a.custom-logo > div {background-image: url('../img/index-gold-logo.svg');positio
 
 
 
+/*----------------------------------------------------*/
+/*  Numbers
+/*----------------------------------------------------*/
+#numbers .facts {float:left;width:100%;text-align:center;margin:50px 0 80px 0;}
+#numbers .facts li {display:inline-block;margin:0 12px;}
+#numbers .facts strong {font-size:70px;color:#AA986A;display:block;line-height:100%;}
+#numbers .facts span {color:#000;font-size:20px;}
+#numbers .facts .break {width:8px;height:8px;background-color:#eee;position:relative;top:-40px;margin-left:15px;margin-right:9px;}
+
+/* references */
+#numbers .references {position:relative;float:left;width:100%;padding:100px 0 100px 0;background:url(http://placehold.it/1920x1080) 50% 50% no-repeat;}
+#numbers .references .smart-list li {height:200px;}
+#numbers .references .smart-list img {width:auto;margin:0;border:4px solid #000;border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;}
+#numbers .references .smart-list h4, .references .smart-list p, .references .smart-list i {color:#fff;}
+#numbers .references .smart-list li:hover > a img {border-color:#fff;}
+#numbers .references h2.page-title {color:#fff;font-size:35px;margin:0 0 45px 0;}
+#numbers .references h2.page-title .border {background-color:#fff;height:1px;bottom:-24px;}
+#numbers .references h3.page-subtitle {margin-top:34px;color:#c3c3c3;}
+#numbers .references h3.page-subtitle.white {color:#fff;}
