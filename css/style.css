@@ -10,7 +10,7 @@ body #carousel .cl-effect-2 a span {background-color:transparent;color:#fff;text
 body #carousel .cl-effect-2 a span:before {background-color:transparent;text-transform:none;font-size:25px;line-height:200%;font-family:'Raleway', sans-serif;}
 
 /*----------------------------------------------------*/
-/*	Common
+/*  Common
 /*----------------------------------------------------*/
 body,html {font-family: 'Open Sans', sans-serif;font-size:14px;}
 
@@ -27,7 +27,7 @@ section.page {margin-top:60px;padding:40px 0;}
 
 
 /*----------------------------------------------------*/
-/*	Wrappers & other
+/*  Wrappers & other
 /*----------------------------------------------------*/
 #wrapper {width:100%;overflow:hidden;}
 .wrap {width:940px;margin:0 auto;z-index:4;position:relative;}
@@ -44,7 +44,7 @@ section.page {margin-top:60px;padding:40px 0;}
 
 
 /*----------------------------------------------------*/
-/*	Header
+/*  Header
 /*----------------------------------------------------*/
 #header {position:fixed;display:block;width:100%;height:60px;z-index:9;min-width:320px;}
 #header .main {position:relative;z-index:3;}
@@ -62,7 +62,7 @@ section.page {margin-top:60px;padding:40px 0;}
 
 
 /*----------------------------------------------------*/
-/*	Preloader
+/*  Preloader
 /*----------------------------------------------------*/
 #preloader {position:fixed;width:100%;height:100%;background-color:#fff;z-index:99;}
 
@@ -105,7 +105,7 @@ section.page {margin-top:60px;padding:40px 0;}
 
 
 /*----------------------------------------------------*/
-/*	Carousel
+/*  Carousel
 /*----------------------------------------------------*/
 #carousel {position:relative;display:block;width:100%;bottom:0;top:0;height:100%;overflow:hidden;height:300px;}
 #carousel .carousel-holder {position:absolute;display:block;width:100%;height:100%;bottom:0;top:0;background-color:#000;overflow:hidden;}
@@ -136,37 +136,37 @@ section.page {margin-top:60px;padding:40px 0;}
 
 /* scroll button animation */
 @keyframes arrows {
-	0% { bottom:40px; }
-	10% { bottom:50px; }
-	20% { bottom:40px; }
-	30% { bottom:50px; }
-	40% { bottom:30px; }
-	50% { bottom:50px; }
-	60% { bottom:40px; }
-	70% { bottom:50px; }
-	80% { bottom:30px; }
-	90% { bottom:50px; }
-	100% { bottom:40px; }
+  0% { bottom:40px; }
+  10% { bottom:50px; }
+  20% { bottom:40px; }
+  30% { bottom:50px; }
+  40% { bottom:30px; }
+  50% { bottom:50px; }
+  60% { bottom:40px; }
+  70% { bottom:50px; }
+  80% { bottom:30px; }
+  90% { bottom:50px; }
+  100% { bottom:40px; }
 }
 @-webkit-keyframes arrows {
-	0% { bottom:40px; }
-	10% { bottom:50px; }
-	20% { bottom:40px; }
-	30% { bottom:50px; }
-	40% { bottom:30px; }
-	50% { bottom:50px; }
-	60% { bottom:40px; }
-	70% { bottom:50px; }
-	80% { bottom:30px; }
-	90% { bottom:50px; }
-	100% { bottom:40px; }
+  0% { bottom:40px; }
+  10% { bottom:50px; }
+  20% { bottom:40px; }
+  30% { bottom:50px; }
+  40% { bottom:30px; }
+  50% { bottom:50px; }
+  60% { bottom:40px; }
+  70% { bottom:50px; }
+  80% { bottom:30px; }
+  90% { bottom:50px; }
+  100% { bottom:40px; }
 }
 .scroll-btn {-webkit-animation: arrows 3.8s infinite;-webkit-animation-delay: 1s;animation: arrows 3.8s infinite;animation-delay: 1s;cursor:pointer;}
 
 
 
 /*----------------------------------------------------*/
-/*	Customers
+/*  Customers
 /*----------------------------------------------------*/
 .customers {float:left;width:90%;padding:50px 5% 30px 5%;}
 .customers li {position:relative;float:left;width:20%;padding:30px 0;text-align:center;}
@@ -177,7 +177,7 @@ section.page {margin-top:60px;padding:40px 0;}
 
 
 /*----------------------------------------------------*/
-/*	Screenshots
+/*  Screenshots
 /*----------------------------------------------------*/
 .gray {float:left;background-color:#f9f9f9;width:100%;}
 .screens {float:left;width:100%;height:550px;margin-top:30px;position:relative;}
@@ -191,7 +191,7 @@ section.page {margin-top:60px;padding:40px 0;}
 
 
 /*----------------------------------------------------*/
-/*	Navigation
+/*  Navigation
 /*----------------------------------------------------*/
 #navigation {float:right;font-size:0;position:relative;top:-25px;text-align:center;width:100%;}
 #navigation li {display:inline-block;font-size:14px;width:125px;}
@@ -214,7 +214,7 @@ section.page {margin-top:60px;padding:40px 0;}
 
 
 /*----------------------------------------------------*/
-/*	Logo
+/*  Logo
 /*----------------------------------------------------*/
 #logo {float:left;height:60px;font-size:30px;font-weight:800;font-family: 'Ubuntu', sans-serif;color:#000;line-height:57px;padding:0!important;margin:0;}
 #logo h1 {position:relative;z-index:2;font-size:30px;width:120px;text-align:center;margin:25px 0 0 0;letter-spacing:-0.2rem;color:#AA986A;}
@@ -223,7 +223,7 @@ section.page {margin-top:60px;padding:40px 0;}
 
 
 /*----------------------------------------------------*/
-/*	Portfolio
+/*  Portfolio
 /*----------------------------------------------------*/
 #portfolio-box {background-color:#fff;height:0;width:0;position:fixed;z-index:100;opacity:0;transition:opacity 0.3s;}
 #portfolio-box.visible {opacity:1;}
@@ -260,7 +260,7 @@ section.page {margin-top:60px;padding:40px 0;}
 
 
 /*----------------------------------------------------*/
-/*	About
+/*  About
 /*----------------------------------------------------*/
 /* facts */
 #about .facts {float:left;width:100%;text-align:center;margin:50px 0 80px 0;}
@@ -317,7 +317,7 @@ section.page {margin-top:60px;padding:40px 0;}
 
 
 /*----------------------------------------------------*/
-/*	Services
+/*  Services
 /*----------------------------------------------------*/
 #services {float:left;width:100%;}
 #services .gray {float:left;width:100%;background-color:#f9f9f9;}
@@ -330,7 +330,7 @@ section.page {margin-top:60px;padding:40px 0;}
 #core .core-values li .fa {position:absolute;top:39px;left:131px;width:50px;text-align:center;font-size:44px;color:#000;line-height:100%;}
 #core .core-values li h4 {font-size:18px;font-weight:500;background: url(../img/sprite.png) no-repeat 50% -43px;padding-bottom:15px;margin:50px 0 15px 0;}
 #core .core-values li p {font-size:13px;padding:0 30px;margin-top:5px;color:#5e5e5e;}
-#core .core-values li:hover > .core {background-color:#AA986A;}
+#core .core-values li:hover a > .core {background-color:#AA986A;}
 #core .core-values li:hover > .fa {color:#fff;}
 
 #services .touch {float:left;width:100%;padding:20px 0;text-align:center;}
@@ -349,7 +349,7 @@ section.page {margin-top:60px;padding:40px 0;}
 
 
 /*----------------------------------------------------*/
-/*	Contacts
+/*  Contacts
 /*----------------------------------------------------*/
 #map {width:100%;height:640px;background-color:#000;position:relative;z-index:1;}
 
@@ -380,7 +380,7 @@ section.page {margin-top:60px;padding:40px 0;}
 
 
 /*----------------------------------------------------*/
-/*	Project inner page
+/*  Project inner page
 /*----------------------------------------------------*/
 #project {position:relative;top:0;width:100%;height:545px;}
 #project .main-background {position:absolute;width:100%;height:100%;overflow:hidden;background:transparent url(http://placehold.it/1920x1080) no-repeat 50% 0%;background-size:cover;-moz-background-size:cover;-webkit-background-size:cover;}
@@ -418,7 +418,7 @@ section.page {margin-top:60px;padding:40px 0;}
 
 
 /*----------------------------------------------------*/
-/*	Go to top button
+/*  Go to top button
 /*----------------------------------------------------*/
 #go-top {opacity:0;width:50px;height:50px;display:block;position:fixed;right:0;bottom:0;background: #000 url(../img/sprite.png) no-repeat -101px 6px;cursor:pointer;z-index:6;}
 #go-top.bottom {position:absolute;right:0;top:-50px;}
@@ -427,18 +427,18 @@ section.page {margin-top:60px;padding:40px 0;}
 
 
 /*----------------------------------------------------*/
-/*	Transitions
+/*  Transitions
 /*----------------------------------------------------*/
 #logo, #navigation li a, #portfolio .item .over, #portfolio .item, #team .member img, #team .info, #team .info:after, #team .social a,
 #core .core, #core .fa, #navigation li span.border, #header .after, #go-top, #logo:after, #footer .social a, #logo .label, #logo h1,
 .customers li .over, .core-values .core, .nav-controls a, #contacts .get-in-touch button {
-	transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-webkit-transition:all .3s ease-in-out;
+  transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-webkit-transition:all .3s ease-in-out;
 }
 
 
 
 /*----------------------------------------------------*/
-/*	Rotation
+/*  Rotation
 /*----------------------------------------------------*/
 .rotate {transform:rotate(45deg);-moz-transform:rotate(45deg);-webkit-transform:rotate(45deg);}
 .radius {border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;}
@@ -446,7 +446,7 @@ section.page {margin-top:60px;padding:40px 0;}
 
 
 /*----------------------------------------------------*/
-/*	Footer
+/*  Footer
 /*----------------------------------------------------*/
 #footer {position:relative;float:left;width:100%;text-align:center;min-height:200px;background-color:#000;font-size:0.9em;}
 #footer strong {display:inline-block;font-family: 'Ubuntu', sans-serif;font-weight:800;font-size:30px;color:#fff;padding:48px 0 20px 0;}
@@ -458,7 +458,7 @@ section.page {margin-top:60px;padding:40px 0;}
 
 
 /*----------------------------------------------------*/
-/*	Custom css
+/*  Custom css
 /*----------------------------------------------------*/
 a.custom-logo {width:100%;position:relative;}
 a.custom-logo > div {background-image: url('../img/index-gold-logo.svg');position:relative;z-index:10;width:125px;height:33px;background-size:contain;top:37px;background-position:center;background-repeat:no-repeat;}
