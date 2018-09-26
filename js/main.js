@@ -186,7 +186,7 @@ var App = {
 
   slideText: function(index) {
 
-    $('.slide-text').stop(true,true).animate({'top': (index-1)*-21}, 300, 'easeOutExpo');
+    $('.slide-text').stop(true,true).animate({'top': (index-1)*-40}, 300, 'easeOutExpo');
     $('.main-slide-text').stop(true,true).animate({'top': (index-1)*-91}, 300, 'easeOutExpo');
 
   },
