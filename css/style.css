@@ -102,7 +102,11 @@ section.page {margin-top:60px;padding:40px 0;}
   }
 }
 
-
+/*----------------------------------------------------*/
+/*  InstagramFeed (Instafetch)
+/*----------------------------------------------------*/
+#instafetch {display: inline-flex}
+#instafetch img {width: 100%}
 
 /*----------------------------------------------------*/
 /*  Carousel

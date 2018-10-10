@@ -457,11 +457,11 @@ var App = {
     /*jshint multistr: true*/
     boxText.innerHTML = "\
       <div class='marker-label'>\
-        San Jose. Address: 350<br>\
-        Fifth Avenue, 34th floor.<br>\
-        San Jose, CA 10118-3299<br>\
-        USA Tel: +1-212-290-4700.<br>\
-        Fax: +1-212-736-1300.\
+        São Paulo<br>\
+        Rua Orcar Freire, 379, 121.<br>\
+        JD Paulista, 01426-001<br>\
+        São Paulo, SP <br>\
+        Tel: +55 11 3068 2000.<br>\
         </div>\
       ";
 
