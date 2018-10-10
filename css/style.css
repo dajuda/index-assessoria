@@ -54,7 +54,7 @@ section.page {margin-top:60px;padding:40px 0;}
 #header.sticky #navigation li a {color:#000;}
 #header.sticky #navigation ul li a {color:#fff;}
 #header.sticky #navigation li span.border {background-color:#AA986A;}
-#header.sticky #logo .label {background-color:#282425;transform:rotate(0deg);-moz-transform:rotate(0deg);-webkit-transform:rotate(0deg);}
+#header.sticky #logo .label {background-color:#000;transform:rotate(0deg);-moz-transform:rotate(0deg);-webkit-transform:rotate(0deg);}
 #header.sticky #logo h1 {color:#fff;}
 
 #mobile {display:none;}
@@ -194,7 +194,7 @@ section.page {margin-top:60px;padding:40px 0;}
 /*  Navigation
 /*----------------------------------------------------*/
 #navigation {float:right;font-size:0;position:relative;top:-25px;text-align:center;width:100%;}
-#navigation li {display:inline-block;font-size:14px;width:125px;}
+#navigation li {display:inline-block;font-size:14px;width:120px;}
 
 #navigation li a {display:block;position:relative;padding:21px 0;margin:0;color:#fff;text-transform:uppercase;font-size:0.9em;}
 #navigation li span.arrow {position:relative;top:-1px;}
@@ -325,12 +325,18 @@ section.page {margin-top:60px;padding:40px 0;}
 /* core */
 #core {padding:20px 0 50px 0;}
 #core .core-values {width:100%;text-align:center;font-size:0;margin-top:40px;}
-#core .core-values li {position:relative;display:inline-block;width:33%;height:305px;margin:15px 0;}
-#core .core-values li .core {display:inline-block;width:100px;height:100px;padding:3%;background-color:#eee;position:relative;top:35px}
-#core .core-values li .fa {position:absolute;top:73px;left:131px;width:50px;text-align:center;font-size:44px;color:#000;line-height:100%;}
-#core .core-values li h4 {font-size:18px;font-weight:500;background: url(../img/sprite.png) no-repeat 50% -43px;padding-bottom:15px;margin:70px 0 15px 0;color:#333333}
+#core .core-values li {position:relative;display:inline-block;width:24%;height:200px;margin:15px 0;}
+#core .core-values li .core {display:inline-block;width:60px;height:60px;padding:3%;background-color:#eee;position:relative;top:35px}
+#core .core-values li .fab {position:absolute;top:54px;left:88px;width:51px;text-align:center;font-size:36px;color:#888;line-height:100%;}
+#core .core-values li .fas {position:absolute;top:54px;left:88px;width:51px;text-align:center;font-size:36px;color:#888;line-height:100%;}
+#core .core-values li .far {position:absolute;top:54px;left:88px;width:51px;text-align:center;font-size:36px;color:#888;line-height:100%;}
+#core .core-values li .fa {position:absolute;top:54px;left:88px;width:51px;text-align:center;font-size:36px;color:#888;line-height:100%;}
+#core .core-values li h4 {font-size:14px;font-weight:500;background: url(../img/sprite.png) no-repeat 50% -43px;padding-bottom:15px;margin:70px 0 15px 0;color:#333333}
 #core .core-values li p {font-size:13px;padding:0 30px;margin-top:5px;color:#5e5e5e;}
 #core .core-values li:hover a > .core {background-color:#AA986A;}
+#core .core-values li:hover > a > .fab {color:#fff;}
+#core .core-values li:hover > a > .fas {color:#fff;}
+#core .core-values li:hover > a > .far {color:#fff;}
 #core .core-values li:hover > a > .fa {color:#fff;}
 
 #services .touch {float:left;width:100%;padding:20px 0;text-align:center;}
