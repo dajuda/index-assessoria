@@ -146,9 +146,9 @@ var App = {
         trackColor: 'rgba(0,0,0,0.1)',
         scaleColor: false,
         lineCap: 'square',
-        lineWidth: 13,
+        lineWidth: 4,
         animate: 2000,
-        size: 120,
+        size: 170,
         onStep: function(from, to, percent) {
           $(this.el).find('.percent').text(Math.round(percent));
         }
