@@ -412,8 +412,8 @@ var App = {
   create_map: function(mapContainer) {
 
     var mapOptions = {
-      center: new google.maps.LatLng(37.40330, -121.98499), //37.36456, -121.92852
-      zoom: 13,
+      center: new google.maps.LatLng(-23.56196068, -46.6558822), //37.36456, -121.92852
+      zoom: 16,
       navigationControl: false,
       mapTypeControl: false,
       scrollwheel: false,
@@ -439,7 +439,7 @@ var App = {
   create_marker: function() {
 
     var pinImage = new google.maps.MarkerImage('img/marker.png'),
-    myPin = new google.maps.LatLng(37.37758, -122.05391);
+    myPin = new google.maps.LatLng(-23.5665689, -46.6655919);
 
     marker = new google.maps.Marker({
       position: myPin,
@@ -458,7 +458,7 @@ var App = {
     boxText.innerHTML = "\
       <div class='marker-label'>\
         São Paulo<br>\
-        Rua Orcar Freire, 379, 121.<br>\
+        Rua Oscar Freire, 379, 121.<br>\
         JD Paulista, 01426-001<br>\
         São Paulo, SP <br>\
         Tel: +55 11 3068 2000.<br>\

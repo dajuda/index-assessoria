@@ -105,8 +105,11 @@ section.page {margin-top:60px;padding:40px 0;}
 /*----------------------------------------------------*/
 /*  InstagramFeed (Instafetch)
 /*----------------------------------------------------*/
-#instafetch {display: inline-flex}
-#instafetch img {width: 100%}
+#instafetch {display: inline-flex; margin-bottom: 40px;}
+#instafetch article {margin: auto}
+#instafetch img {width: 80%; padding: 10px; box-shadow:2px 2px 10px #00000047; background-color: white; transition: transform .2s;}
+
+#instafetch img:hover {transform: scale(1.5);}
 
 /*----------------------------------------------------*/
 /*  Carousel
