@@ -1,0 +1,48 @@
+.charts {
+  position: relative;
+  width: 28em;
+  height: 28em;
+  padding: 0;
+  border-radius: 50%;
+  list-style: none;
+  margin: 5em auto 0;
+  border: solid 5px tomato;
+  float: initial; }
+  .charts > * {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 9em;
+    height: 9em;
+    margin: -4.5em; }
+    .charts > *:nth-of-type(1) {
+      transform: rotate(0deg) translate(14em) rotate(0deg); }
+    .charts > *:nth-of-type(2) {
+      transform: rotate(45deg) translate(14em) rotate(-45deg); }
+    .charts > *:nth-of-type(3) {
+      transform: rotate(90deg) translate(14em) rotate(-90deg); }
+    .charts > *:nth-of-type(4) {
+      transform: rotate(135deg) translate(14em) rotate(-135deg); }
+    .charts > *:nth-of-type(5) {
+      transform: rotate(180deg) translate(14em) rotate(-180deg); }
+    .charts > *:nth-of-type(6) {
+      transform: rotate(225deg) translate(14em) rotate(-225deg); }
+    .charts > *:nth-of-type(7) {
+      transform: rotate(270deg) translate(14em) rotate(-270deg); }
+    .charts > *:nth-of-type(8) {
+      transform: rotate(315deg) translate(14em) rotate(-315deg); }
+  .charts div {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    border: solid 5px tomato;
+    transition: .15s;
+    justify-content: center;
+    align-items: center; }
+    .charts div:hover, .charts div:active {
+      filter: grayscale(0); }
+
+/*# sourceMappingURL=circles.css.map */
