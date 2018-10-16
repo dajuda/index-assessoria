@@ -238,7 +238,7 @@ section.page {margin-top:60px;padding:40px 0;}
 #portfolio-box .spinner {position:absolute;left:50%;margin-left:-15px;}
 #portfolio {float:left;display:block;width:100%;position:relative;background-color:#f9f9f9;padding-bottom:30px;}
 #portfolio .inner {background-color:#000;}
-#portfolio li {float:left;display:block;width:25%;background-color:#000;}
+#portfolio li {float:left;display:block;width:33.3%;background-color:#000;}
 #portfolio li a {float:left;display:block;}
 #portfolio .item {float:left;left:0;width:100%;position:relative;}
 #portfolio .item img {float:left;width:100%;height:100%;}

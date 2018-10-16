@@ -5,8 +5,7 @@
   padding: 0;
   border-radius: 50%;
   list-style: none;
-  margin: 5em auto 0;
-  border: solid 5px tomato;
+  margin: 8em auto 100px;
   float: initial; }
   .charts > * {
     display: block;
@@ -36,13 +35,18 @@
     display: flex;
     width: 100%;
     height: 100%;
+    background-color: white;
     border-radius: 50%;
     filter: grayscale(100%);
-    border: solid 5px tomato;
-    transition: .15s;
+    transition: transform .15s;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    opacity: 0.8;
+    font-size: 0.8rem; }
     .charts div:hover, .charts div:active {
-      filter: grayscale(0); }
+      cursor: pointer;
+      font-weight: 600;
+      transform: scale(1.2);
+      opacity: 1; }
 
 /*# sourceMappingURL=circles.css.map */
