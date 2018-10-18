@@ -23,6 +23,7 @@
 
     $angle: (360 / $item-count);
     $rot: 0;
+    $background-colors-list: #D8E348 #ED3840 #C89048 #68A456 #ABBFE0 #9D8B5B #FFFFFF #DD2E99;
 
     @for $i from 1 through $item-count {
       &:nth-of-type(#{$i}) {
@@ -30,6 +31,9 @@
           rotate($rot * 1deg)
           translate($circle-size / 2)
           rotate($rot * -1deg);
+        div {
+        background-color: nth($background-colors-list, $i);;
+        }
       }
 
       $rot: $rot + $angle;
@@ -46,14 +50,13 @@
     display: flex;
     width: 100%;
     height: 100%;
-    background-color: white;
     border-radius: 50%;
-    filter: grayscale(100%);
     transition: transform .15s;
     justify-content: center;
     align-items: center;
     opacity: 0.8;
     font-size: 0.8rem;
+    color: #333;
 
     &:hover,
     &:active {

@@ -129,10 +129,10 @@ section.page {margin-top:60px;padding:40px 0;}
 .prev:active, .next:active {opacity:.4;}
 
 .slide-text {position:relative;top:0;}
-.slide-text li {height:40px;}
+.slide-text li {height:70px;}
 
 .main-slide-text {position:relative;top:0;}
-.main-slide-text li {height:91px;margin-top:4px}
+.main-slide-text li {height:125px;margin-top:15px}
 
 /* pattern */
 .pattern {background-image:url(../img/pattern.png);position:absolute;opacity:0.8;left:0px;top:0px;right:0;bottom:0;width:100%;height:100%;z-index:1; }
@@ -332,17 +332,17 @@ section.page {margin-top:60px;padding:40px 0;}
 #core .core-values {width:100%;text-align:center;font-size:0;margin-top:40px;}
 #core .core-values li {position:relative;display:inline-block;width:24%;height:200px;margin:15px 0;}
 #core .core-values li .core {display:inline-block;width:60px;height:60px;padding:3%;background-color:#eee;position:relative;top:35px}
-#core .core-values li .fab {position:absolute;top:54px;left:88px;width:51px;text-align:center;font-size:36px;color:#888;line-height:100%;}
-#core .core-values li .fas {position:absolute;top:54px;left:88px;width:51px;text-align:center;font-size:36px;color:#888;line-height:100%;}
-#core .core-values li .far {position:absolute;top:54px;left:88px;width:51px;text-align:center;font-size:36px;color:#888;line-height:100%;}
-#core .core-values li .fa {position:absolute;top:54px;left:88px;width:51px;text-align:center;font-size:36px;color:#888;line-height:100%;}
+#core .core-values li .fab {position:relative;top:54px;width:51px;text-align:center;font-size:36px;color:#888;line-height:100%;}
+#core .core-values li .fas {position:relative;top:54px;width:51px;text-align:center;font-size:36px;color:#888;line-height:100%;}
+#core .core-values li .far {position:relative;top:54px;width:51px;text-align:center;font-size:36px;color:#888;line-height:100%;}
+#core .core-values li .fa {position:relative;top:54px;width:51px;text-align:center;font-size:36px;color:#888;line-height:100%;}
 #core .core-values li h4 {font-size:14px;font-weight:500;background: url(../img/sprite.png) no-repeat 50% -43px;padding-bottom:15px;margin:70px 0 15px 0;color:#333333}
 #core .core-values li p {font-size:13px;padding:0 30px;margin-top:5px;color:#5e5e5e;}
 #core .core-values li:hover a > .core {background-color:#AA986A;}
-#core .core-values li:hover > a > .fab {color:#fff;}
-#core .core-values li:hover > a > .fas {color:#fff;}
-#core .core-values li:hover > a > .far {color:#fff;}
-#core .core-values li:hover > a > .fa {color:#fff;}
+#core .core-values li:hover > a > .fab {color:#AA986A;}
+#core .core-values li:hover > a > .fas {color:#AA986A;}
+#core .core-values li:hover > a > .far {color:#AA986A;}
+#core .core-values li:hover > a > .fa {color:#AA986A;}
 
 #services .touch {float:left;width:100%;padding:20px 0;text-align:center;}
 
@@ -481,7 +481,7 @@ a.custom-logo > div {background-image: url('../img/index-gold-logo.svg');positio
 /*  Numbers
 /*----------------------------------------------------*/
 #numbers .facts {float:left;width:100%;text-align:center;margin:50px 0 80px 0;}
-#numbers .facts li {display:inline-block;margin:0 12px;}
+#numbers .facts li {display:inline-block;margin:12px 12px;}
 #numbers .facts strong {font-size:70px;color:#AA986A;display:block;line-height:100%;}
 #numbers .facts span {color:#000;font-size:20px;}
 #numbers .facts .break {width:8px;height:8px;background-color:#eee;position:relative;top:-40px;margin-left:15px;margin-right:9px;}

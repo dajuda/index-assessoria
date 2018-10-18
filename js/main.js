@@ -167,7 +167,7 @@ var App = {
         effTimer:4000,
         controls:"#controls",
         grayScale:false,
-        shuffle:true,
+        shuffle:false,
         preserveWidth:false,
         effect:"zoom",
 
@@ -178,6 +178,11 @@ var App = {
         "img/carousel/slide-4.jpg",
         "img/carousel/slide-5.jpg",
         "img/carousel/slide-6.jpg",
+        "img/carousel/slide-7.jpg",
+        "img/carousel/slide-8.jpg",
+        "img/carousel/slide-9.jpg",
+        "img/carousel/slide-10.jpg",
+        "img/carousel/slide-11.jpg",
         ]
 
       });
@@ -186,8 +191,8 @@ var App = {
 
   slideText: function(index) {
 
-    $('.slide-text').stop(true,true).animate({'top': (index-1)*-40}, 300, 'easeOutExpo');
-    $('.main-slide-text').stop(true,true).animate({'top': (index-1)*-91}, 300, 'easeOutExpo');
+    $('.slide-text').stop(true,true).animate({'top': (index-1)*-70}, 300, 'easeOutExpo');
+    $('.main-slide-text').stop(true,true).animate({'top': (index-1)*-140}, 300, 'easeOutExpo');
 
   },
 

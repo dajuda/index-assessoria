@@ -17,32 +17,47 @@
     margin: -4.5em; }
     .charts > *:nth-of-type(1) {
       transform: rotate(0deg) translate(14em) rotate(0deg); }
+      .charts > *:nth-of-type(1) div {
+        background-color: #D8E348; }
     .charts > *:nth-of-type(2) {
       transform: rotate(45deg) translate(14em) rotate(-45deg); }
+      .charts > *:nth-of-type(2) div {
+        background-color: #ED3840; }
     .charts > *:nth-of-type(3) {
       transform: rotate(90deg) translate(14em) rotate(-90deg); }
+      .charts > *:nth-of-type(3) div {
+        background-color: #C89048; }
     .charts > *:nth-of-type(4) {
       transform: rotate(135deg) translate(14em) rotate(-135deg); }
+      .charts > *:nth-of-type(4) div {
+        background-color: #68A456; }
     .charts > *:nth-of-type(5) {
       transform: rotate(180deg) translate(14em) rotate(-180deg); }
+      .charts > *:nth-of-type(5) div {
+        background-color: #ABBFE0; }
     .charts > *:nth-of-type(6) {
       transform: rotate(225deg) translate(14em) rotate(-225deg); }
+      .charts > *:nth-of-type(6) div {
+        background-color: #9D8B5B; }
     .charts > *:nth-of-type(7) {
       transform: rotate(270deg) translate(14em) rotate(-270deg); }
+      .charts > *:nth-of-type(7) div {
+        background-color: #FFFFFF; }
     .charts > *:nth-of-type(8) {
       transform: rotate(315deg) translate(14em) rotate(-315deg); }
+      .charts > *:nth-of-type(8) div {
+        background-color: #DD2E99; }
   .charts div {
     display: flex;
     width: 100%;
     height: 100%;
-    background-color: white;
     border-radius: 50%;
-    filter: grayscale(100%);
     transition: transform .15s;
     justify-content: center;
     align-items: center;
     opacity: 0.8;
-    font-size: 0.8rem; }
+    font-size: 0.8rem;
+    color: #333; }
     .charts div:hover, .charts div:active {
       cursor: pointer;
       font-weight: 600;
