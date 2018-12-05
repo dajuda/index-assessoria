@@ -52,6 +52,8 @@ section.page {margin-top:60px;padding:40px 0;}
 #header .main {position:relative;z-index:3;}
 #header .after {position:absolute;width:100%;height:100%;top:-60px;z-index:2;background-color:#fff;-webkit-box-shadow:0px 0px 65px 0px rgba(0,0,0,0.4);-moz-box-shadow:0px 0px 65px 0px rgba(0,0,0,0.4);box-shadow:0px 0px 65px 0px rgba(0,0,0,0.4);}
 
+#header #navigation .center span {background:#A79E66}
+
 #header.sticky .after {top:0;-webkit-box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.05);-moz-box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.05);box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.05);}
 #header.sticky #navigation li a {color:#000;}
 #header.sticky #navigation ul li a {color:#fff;}
@@ -251,7 +253,7 @@ section.page {margin-top:60px;padding:40px 0;}
 #portfolio .item .over .border {height:1px;background-color:#fff;}
 #portfolio .item .over h3 {color:#fff;font-size:18px;font-weight:300;padding:13px 50px;box-sizing:border-box;width:auto;}
 #portfolio .item.aberto .over {display:none;}
-#portfolio .item:hover > .over {opacity:0;}
+/*#portfolio .item:hover > .over {opacity:0;}*/
 #portfolio .more {position:absolute;left:50%;bottom:10px;width:40px;height:40px;margin-left:-20px;background-color:#AA986A;z-index:6;}
 #portfolio .more span {position:absolute;left:14px;top:4px;font-size:22px;color:#fff;}
 
@@ -339,7 +341,7 @@ section.page {margin-top:60px;padding:40px 0;}
 #core .core-values li .fas {position:relative;top:54px;width:51px;text-align:center;font-size:36px;color:#888;line-height:100%;}
 #core .core-values li .far {position:relative;top:54px;width:51px;text-align:center;font-size:36px;color:#888;line-height:100%;}
 #core .core-values li .fa {position:relative;top:54px;width:51px;text-align:center;font-size:36px;color:#888;line-height:100%;}
-#core .core-values li h4 {font-size:14px;font-weight:500;background: url(../img/sprite.png) no-repeat 50% -43px;padding-bottom:15px;margin:70px 0 15px 0;color:#333333}
+#core .core-values li h4 {font-size:14px;font-weight:500;background: url(../img/sprite.png) no-repeat 50% -43px;padding-bottom:15px;margin:0px 0 0px 0;color:#333333}
 #core .core-values li p {font-size:13px;padding:0 30px;margin-top:5px;color:#5e5e5e;}
 #core .core-values li:hover a > .core {background-color:#AA986A;}
 #core .core-values li:hover > a > .fab {color:#AA986A;}
@@ -459,7 +461,6 @@ section.page {margin-top:60px;padding:40px 0;}
 }
 
 
-
 /*----------------------------------------------------*/
 /*  Rotation
 /*----------------------------------------------------*/
@@ -484,8 +485,8 @@ section.page {margin-top:60px;padding:40px 0;}
 /*  Custom css
 /*----------------------------------------------------*/
 a.custom-logo {width:100%;position:relative;}
-a.custom-logo > div {background-image: url('../img/index-gold-logo.svg');position:relative;z-index:10;width:125px;height:33px;background-size:contain;top:37px;background-position:center;background-repeat:no-repeat;}
-#header.sticky a.custom-logo > div {background-image: url('../img/index-white-logo.svg');position:relative;z-index:10;width:125px;height:33px;background-size:contain;top:37px;background-position:center;background-repeat:no-repeat;}
+a.custom-logo > div {display:none;background-image: url('../img/index-gold-logo.svg');position:relative;z-index:10;width:125px;height:33px;background-size:contain;top:37px;background-position:center;background-repeat:no-repeat;}
+#header.sticky a.custom-logo > div {display:block;background-image: url('../img/index-white-logo.svg');position:relative;z-index:10;width:125px;height:33px;background-size:contain;top:37px;background-position:center;background-repeat:no-repeat;}
 
 
 

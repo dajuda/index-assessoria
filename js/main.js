@@ -164,25 +164,15 @@ var App = {
       $.mbBgndGallery.buildGallery({
         containment:"#carousel",
         timer:2000,
-        effTimer:4000,
+        effTimer:false,
         controls:"#controls",
         grayScale:false,
         shuffle:false,
         preserveWidth:false,
-        effect:"zoom",
+        effect:"fade",
 
         images:[
-        "img/carousel/slide-1.jpg",
-        "img/carousel/slide-2.jpg",
-        "img/carousel/slide-3.jpg",
-        "img/carousel/slide-4.jpg",
-        "img/carousel/slide-5.jpg",
-        "img/carousel/slide-6.jpg",
-        "img/carousel/slide-7.jpg",
-        "img/carousel/slide-8.jpg",
-        "img/carousel/slide-9.jpg",
-        "img/carousel/slide-10.jpg",
-        "img/carousel/slide-11.jpg",
+        "img/carousel/back-mosaico.jpg",
         ]
 
       });
